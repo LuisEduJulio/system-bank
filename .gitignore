@@ -1,3 +1,104 @@
-./api-bank/obj
-./api-bank/bin
-./api-bank/.vs
+# Ignore arquivos de configuração específicos do sistema
+.idea/
+.vscode/
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+
+# Ignore arquivos gerados pelo sistema operacional
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Ll]og/
+[Ll]ogs/
+
+# Ignore Node.js e dependências do Angular
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Ignore arquivos temporários
+*.swp
+*~
+
+# Ignore arquivos de compilação do Angular
+/dist/
+/tmp/
+
+# Ignore arquivos de compilação do .NET
+*.exe
+*.dll
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignore arquivos temporários do Visual Studio Code
+.vscode/
+
+# Ignore arquivos temporários do Rider
+.idea/
+
+# Ignore arquivos específicos do sistema operacional
+Thumbs.db
+ehthumbs.db
+
+# Ignore o arquivo de configuração do ambiente
+.env
+
+.api-bank/obj
+.api-bank/bin
+.api-bank/.vs
+.api-bank/api-bank.api/bin/
+.api-bank/api-bank.api/obj/
+.api-bank/api-bank.utility/bin
+.api-bank/api-bank.utility/obj
+.api-bank/api-bank.utility/bin
+.api-bank/api-bank.test/obj
+.api-bank/api-bank.test/bin
+.api-bank/api-bank.ioc/obj
+.api-bank/api-bank.ioc/bin
+.api-bank/api-bank.infraestructure/obj
+.api-bank/api-bank.infraestructure/bin
+.api-bank/api-bank.domain/obj
+.api-bank/api-bank.domain/bin
+.api-bank/api-bank.application/obj
+.api-bank/api-bank.application/bin
+.api-bank/api-bank.api/obj
+.api-bank/api-bank.api/bin
