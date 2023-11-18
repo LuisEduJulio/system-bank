@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "api-bank.utility/1.0.0": {
+        "dependencies": {
+          "api-bank.domain": "1.0.0"
+        },
+        "runtime": {
+          "api-bank.utility.dll": {}
+        }
+      },
+      "api-bank.domain/1.0.0": {
+        "runtime": {
+          "api-bank.domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "api-bank.utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "api-bank.domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

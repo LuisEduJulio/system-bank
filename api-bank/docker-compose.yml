@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  api-bank.api:
+    image: ${DOCKER_REGISTRY-}apibankapi
+    build:
+      context: .
+      dockerfile: api-bank.api/Dockerfile
+    depends_on:
+      - sqlserver
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "@123456qwe"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
