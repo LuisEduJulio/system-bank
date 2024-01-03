@@ -102,3 +102,4 @@ ehthumbs.db
 .api-bank/api-bank.application/bin
 .api-bank/api-bank.api/obj
 .api-bank/api-bank.api/bin
+/api-doc-memory/.vs/api-doc-memory
